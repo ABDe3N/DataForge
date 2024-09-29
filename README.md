@@ -19,14 +19,20 @@ Data Scientists: Individuals dealing with text-heavy datasets looking for effici
 
 ## Installation Instructions : 
 
-### Step 1: Set up Virtual Environment (Recommended)
+### Step 1: Clone DataForge Repository
+
+```
+git clone https://github.com/yourusername/DataForge.git
+```
+
+### Step 2: Set up Virtual Environment (Recommended)
 
 ```
 python -m venv env
 source env/bin/activate  # For Windows: env\Scripts\activate
 ```
 
-### Step 2: Install Dependencies
+### Step 3: Install Dependencies
 ```
 pip install -r requirements.txt
 ```
@@ -36,13 +42,6 @@ If requirements.txt is not available, manually install dependencies:
 ```
 pip install gradio docx2txt datasets torch accelerate
 ```
-
-### Step 3: Clone DataForge Repository
-
-```
-git clone https://github.com/yourusername/DataForge.git
-```
-
 
 ## Usage Instructions :
 

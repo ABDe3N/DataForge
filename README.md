@@ -49,7 +49,7 @@ pip install gradio docx2txt datasets torch accelerate
 Once everything is installed, you can start DataForge’s Gradio UI with the following command:
 
 ```
-env\Scripts\activate
+.\venv\Scripts\Activate
 python dataforge_ui.py
 ```
 
